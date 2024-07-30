@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2px;
+    background-color: #f8f8f8;
+    border: 2px black;
+}
+
+.button-container {
+    position: relative;
+}
+
+.buy-now {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.discount {
+    position: absolute;
+    top: -10px;
+    right: -40px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
